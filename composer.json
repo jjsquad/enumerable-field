@@ -1,0 +1,22 @@
+{
+  "name": "jjsquad/enumerable-field-model",
+  "description": "Gets enumarable field from models",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jorge Junior 'SQUAD'",
+      "email": "jorge.techinfo@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.6.0",
+    "illuminate/database": "5.1.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "JJSquad\\EnumerableField\\" : "src"
+    }
+  }
+}
